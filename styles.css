@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+#output .content-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}

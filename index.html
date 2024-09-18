@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text File Processor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Text File Processor</h1>
+
+    <!-- Upload Section -->
+    <input type="file" id="fileInput" accept=".txt">
+    <button id="filterBtn">Filter Paragraph</button>
+    
+    <!-- Output Section -->
+    <div id="output"></div>
+
+    <!-- Action Buttons -->
+    <div>
+        <button id="showIdBtn">Show ID</button>
+        <button id="hideIdBtn">Hide ID</button>
+        <button id="overviewBtn">Overview</button>
+        <button id="overviewInputBtn">Overview Input</button>
+        <button id="lockBtn">Lock</button>
+        <button id="unlockBtn">Unlock</button>
+        <button id="buildFileBtn">Build File</button>
+    </div>
+
+    <!-- Overview Display -->
+    <textarea id="overviewDisplay" style="display:none;"></textarea>
+    <textarea id="overviewInput" style="display:none;"></textarea>
+
+    <script src="script.js"></script>
+</body>
+</html>
