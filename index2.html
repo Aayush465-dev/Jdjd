@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Text Processing Tool</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Advanced Text Processing Tool</h1>
+    <div>
+        <h3>Upload Main TXT File</h3>
+        <input type="file" id="mainFileInput" accept=".txt">
+        <button id="lockButton">Lock File</button>
+        <button id="unlockButton" class="hidden">Unlock File</button>
+    </div>
+
+    <div id="changeFileSection" class="hidden">
+        <h3>Upload Change TXT File</h3>
+        <input type="file" id="changeFileInput" accept=".txt">
+        <button id="applyChangesButton">Apply Changes</button>
+    </div>
+
+    <!-- Download button to download the filtered text -->
+    <div id="downloadSection" class="hidden">
+        <h3>Download Filtered Text File</h3>
+        <a id="downloadLink" download="filtered_text.txt">Download Filtered Text</a>
+    </div>
+
+    <pre id="output"></pre>
+
+    <script src="script2.js"></script>
+</body>
+</html>
