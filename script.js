@@ -18,7 +18,7 @@ document.getElementById("fileInput").addEventListener("change", function(event) 
 
 document.getElementById("filterBtn").addEventListener("click", function() {
     if (fileContent) {
-        const regex = /"text":"(.*?)"/g;
+        const regex = \"text\":\""(.*?)"\"g;
         extractedData = [...fileContent.matchAll(regex)].map((match, index) => ({
             id: index + 1,
             text: match[1]
